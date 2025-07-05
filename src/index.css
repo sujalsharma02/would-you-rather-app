@@ -1,0 +1,53 @@
+@import 'bulma/css/bulma.min.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hero {
+  background-color: #3273dc;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.username {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.question-panel, .leadboard-panel {
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+.score-panel {
+    border: 2px solid #3273dc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #3273dc;
+}
+
+.list.leadboard-stats .list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.is-active .dropdown-menu {
+  display: block;
+}
